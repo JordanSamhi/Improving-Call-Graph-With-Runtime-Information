@@ -10,3 +10,4 @@ Repository Structure
 	•	generate_csv.py: A Python script that processes FlowDroid results to generate a CSV file summarizing the call graphs.
 	•	compute_statistics.py: A Python script that computes statistical data based on the generated CSV file.
 	•	random_2024_androzoo.lst: A list file representing the dataset used in our experiments.
+ 	•	cgs: The list of the call graphs generated dynamically.
