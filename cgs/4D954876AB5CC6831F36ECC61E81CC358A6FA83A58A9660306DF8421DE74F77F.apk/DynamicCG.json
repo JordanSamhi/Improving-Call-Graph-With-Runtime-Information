@@ -1,0 +1,1567 @@
+{
+  "edges": [
+    {
+      "sourceMethod": "\u003ccom.unity3d.player.UnityPlayerActivity: void onCreate(android.os.Bundle)\u003e",
+      "targetMethod": "\u003candroid.app.Activity: android.content.Intent getIntent()\u003e",
+      "sourceStatement": "$r2 \u003d virtualinvoke this.\u003ccom.unity3d.player.UnityPlayerActivity: android.content.Intent getIntent()\u003e()",
+      "kind": "VIRTUAL",
+      "component": [
+        "com.unity3d.player.UnityPlayerActivity"
+      ]
+    },
+    {
+      "sourceMethod": "\u003ccom.unity3d.player.UnityPlayerActivity: void onCreate(android.os.Bundle)\u003e",
+      "targetMethod": "\u003ccom.unity3d.player.UnityPlayerActivity: java.lang.String updateUnityCommandLineArguments(java.lang.String)\u003e",
+      "sourceStatement": "$r3 \u003d virtualinvoke this.\u003ccom.unity3d.player.UnityPlayerActivity: java.lang.String updateUnityCommandLineArguments(java.lang.String)\u003e($r3)",
+      "kind": "VIRTUAL",
+      "component": [
+        "com.unity3d.player.UnityPlayerActivity"
+      ]
+    },
+    {
+      "sourceMethod": "\u003ccom.unity3d.player.UnityPlayerActivity: void onCreate(android.os.Bundle)\u003e",
+      "targetMethod": "\u003candroid.app.Activity: android.content.Intent getIntent()\u003e",
+      "sourceStatement": "$r2 \u003d virtualinvoke this.\u003ccom.unity3d.player.UnityPlayerActivity: android.content.Intent getIntent()\u003e()",
+      "kind": "VIRTUAL",
+      "component": [
+        "com.unity3d.player.UnityPlayerActivity"
+      ]
+    },
+    {
+      "sourceMethod": "\u003ccom.unity3d.player.UnityPlayer: void \u003cclinit\u003e()\u003e",
+      "targetMethod": "\u003ccom.unity3d.player.l: boolean a()\u003e",
+      "sourceStatement": "virtualinvoke $r0.\u003ccom.unity3d.player.l: boolean a()\u003e()",
+      "kind": "VIRTUAL",
+      "component": [
+        "com.unity3d.player.UnityPlayerActivity"
+      ]
+    },
+    {
+      "sourceMethod": "\u003ccom.unity3d.player.UnityPlayer: void \u003cinit\u003e(android.content.Context,com.unity3d.player.IUnityPlayerLifecycleEvents)\u003e",
+      "targetMethod": "\u003ccom.unity3d.player.UnityPlayer$e: void \u003cinit\u003e(com.unity3d.player.UnityPlayer)\u003e",
+      "sourceStatement": "specialinvoke $r23.\u003ccom.unity3d.player.UnityPlayer$e: void \u003cinit\u003e(com.unity3d.player.UnityPlayer,byte)\u003e(this, 0)",
+      "kind": "SPECIAL",
+      "component": [
+        "com.unity3d.player.UnityPlayerActivity"
+      ]
+    },
+    {
+      "sourceMethod": "\u003ccom.unity3d.player.UnityPlayer: void \u003cinit\u003e(android.content.Context,com.unity3d.player.IUnityPlayerLifecycleEvents)\u003e",
+      "targetMethod": "\u003ccom.unity3d.player.UnityPlayer$c: void \u003cinit\u003e(com.unity3d.player.UnityPlayer)\u003e",
+      "sourceStatement": "specialinvoke $r24.\u003ccom.unity3d.player.UnityPlayer$c: void \u003cinit\u003e(com.unity3d.player.UnityPlayer,byte)\u003e(this, 0)",
+      "kind": "SPECIAL",
+      "component": [
+        "com.unity3d.player.UnityPlayerActivity"
+      ]
+    },
+    {
+      "sourceMethod": "\u003ccom.unity3d.player.UnityPlayer: void \u003cinit\u003e(android.content.Context,com.unity3d.player.IUnityPlayerLifecycleEvents)\u003e",
+      "targetMethod": "\u003ccom.unity3d.player.UnityPlayer: void EarlyEnableFullScreenIfEnabled()\u003e",
+      "sourceStatement": "specialinvoke this.\u003ccom.unity3d.player.UnityPlayer: void EarlyEnableFullScreenIfEnabled()\u003e()",
+      "kind": "SPECIAL",
+      "component": [
+        "com.unity3d.player.UnityPlayerActivity"
+      ]
+    },
+    {
+      "sourceMethod": "\u003ccom.unity3d.player.UnityPlayer: void \u003cinit\u003e(android.content.Context,com.unity3d.player.IUnityPlayerLifecycleEvents)\u003e",
+      "targetMethod": "\u003candroid.view.View: android.content.res.Resources getResources()\u003e",
+      "sourceStatement": "$r8 \u003d virtualinvoke this.\u003ccom.unity3d.player.UnityPlayer: android.content.res.Resources getResources()\u003e()",
+      "kind": "VIRTUAL",
+      "component": [
+        "com.unity3d.player.UnityPlayerActivity"
+      ]
+    },
+    {
+      "sourceMethod": "\u003ccom.unity3d.player.UnityPlayer: void \u003cinit\u003e(android.content.Context,com.unity3d.player.IUnityPlayerLifecycleEvents)\u003e",
+      "targetMethod": "\u003ccom.unity3d.player.UnityPlayer: int getNaturalOrientation(int)\u003e",
+      "sourceStatement": "$i0 \u003d specialinvoke this.\u003ccom.unity3d.player.UnityPlayer: int getNaturalOrientation(int)\u003e($i0)",
+      "kind": "SPECIAL",
+      "component": [
+        "com.unity3d.player.UnityPlayerActivity"
+      ]
+    },
+    {
+      "sourceMethod": "\u003ccom.unity3d.player.UnityPlayer: void \u003cinit\u003e(android.content.Context,com.unity3d.player.IUnityPlayerLifecycleEvents)\u003e",
+      "targetMethod": "\u003ccom.unity3d.player.UnityPlayer: boolean getSplashEnabled()\u003e",
+      "sourceStatement": "$z0 \u003d specialinvoke this.\u003ccom.unity3d.player.UnityPlayer: boolean getSplashEnabled()\u003e()",
+      "kind": "SPECIAL",
+      "component": [
+        "com.unity3d.player.UnityPlayerActivity"
+      ]
+    },
+    {
+      "sourceMethod": "\u003ccom.unity3d.player.UnityPlayer: boolean getSplashEnabled()\u003e",
+      "targetMethod": "\u003ccom.unity3d.player.UnityPlayer: android.content.pm.ApplicationInfo getApplicationInfo()\u003e",
+      "sourceStatement": "$r2 \u003d specialinvoke this.\u003ccom.unity3d.player.UnityPlayer: android.content.pm.ApplicationInfo getApplicationInfo()\u003e()",
+      "kind": "SPECIAL",
+      "component": [
+        "com.unity3d.player.UnityPlayerActivity"
+      ]
+    },
+    {
+      "sourceMethod": "\u003ccom.unity3d.player.UnityPlayer: void \u003cinit\u003e(android.content.Context,com.unity3d.player.IUnityPlayerLifecycleEvents)\u003e",
+      "targetMethod": "\u003ccom.unity3d.player.j$a: void \u003cclinit\u003e()\u003e",
+      "sourceStatement": "$r12 \u003d staticinvoke \u003ccom.unity3d.player.j$a: int[] a()\u003e()",
+      "kind": "CLINIT",
+      "component": [
+        "com.unity3d.player.UnityPlayerActivity"
+      ]
+    },
+    {
+      "sourceMethod": "\u003ccom.unity3d.player.UnityPlayer: void \u003cinit\u003e(android.content.Context,com.unity3d.player.IUnityPlayerLifecycleEvents)\u003e",
+      "targetMethod": "\u003ccom.unity3d.player.j$a: int[] a()\u003e",
+      "sourceStatement": "$r12 \u003d staticinvoke \u003ccom.unity3d.player.j$a: int[] a()\u003e()",
+      "kind": "STATIC",
+      "component": [
+        "com.unity3d.player.UnityPlayerActivity"
+      ]
+    },
+    {
+      "sourceMethod": "\u003ccom.unity3d.player.j$a: int[] a()\u003e",
+      "targetMethod": "\u003cjava.lang.Object: java.lang.Object clone()\u003e",
+      "sourceStatement": "$r0 \u003d virtualinvoke $r1.\u003cjava.lang.Object: java.lang.Object clone()\u003e()",
+      "kind": "VIRTUAL",
+      "component": [
+        "com.unity3d.player.UnityPlayerActivity"
+      ]
+    },
+    {
+      "sourceMethod": "\u003ccom.unity3d.player.UnityPlayer: void \u003cinit\u003e(android.content.Context,com.unity3d.player.IUnityPlayerLifecycleEvents)\u003e",
+      "targetMethod": "\u003ccom.unity3d.player.UnityPlayer: int getSplashMode()\u003e",
+      "sourceStatement": "$i0 \u003d virtualinvoke this.\u003ccom.unity3d.player.UnityPlayer: int getSplashMode()\u003e()",
+      "kind": "VIRTUAL",
+      "component": [
+        "com.unity3d.player.UnityPlayerActivity"
+      ]
+    },
+    {
+      "sourceMethod": "\u003ccom.unity3d.player.UnityPlayer: int getSplashMode()\u003e",
+      "targetMethod": "\u003ccom.unity3d.player.UnityPlayer: android.content.pm.ApplicationInfo getApplicationInfo()\u003e",
+      "sourceStatement": "$r2 \u003d specialinvoke this.\u003ccom.unity3d.player.UnityPlayer: android.content.pm.ApplicationInfo getApplicationInfo()\u003e()",
+      "kind": "SPECIAL",
+      "component": [
+        "com.unity3d.player.UnityPlayerActivity"
+      ]
+    },
+    {
+      "sourceMethod": "\u003ccom.unity3d.player.j: void \u003cinit\u003e(android.content.Context,int)\u003e",
+      "targetMethod": "\u003candroid.view.View: android.content.res.Resources getResources()\u003e",
+      "sourceStatement": "$r2 \u003d virtualinvoke this.\u003ccom.unity3d.player.j: android.content.res.Resources getResources()\u003e()",
+      "kind": "VIRTUAL",
+      "component": [
+        "com.unity3d.player.UnityPlayerActivity"
+      ]
+    },
+    {
+      "sourceMethod": "\u003ccom.unity3d.player.UnityPlayer: void \u003cinit\u003e(android.content.Context,com.unity3d.player.IUnityPlayerLifecycleEvents)\u003e",
+      "targetMethod": "\u003candroid.view.ViewGroup: void addView(android.view.View)\u003e",
+      "sourceStatement": "virtualinvoke this.\u003ccom.unity3d.player.UnityPlayer: void addView(android.view.View)\u003e($r26)",
+      "kind": "VIRTUAL",
+      "component": [
+        "com.unity3d.player.UnityPlayerActivity"
+      ]
+    },
+    {
+      "sourceMethod": "\u003ccom.unity3d.player.UnityPlayer: void \u003cinit\u003e(android.content.Context,com.unity3d.player.IUnityPlayerLifecycleEvents)\u003e",
+      "targetMethod": "\u003ccom.unity3d.player.UnityPlayer: java.lang.String getUnityNativeLibraryPath(android.content.Context)\u003e",
+      "sourceStatement": "$r13 \u003d staticinvoke \u003ccom.unity3d.player.UnityPlayer: java.lang.String getUnityNativeLibraryPath(android.content.Context)\u003e($r11)",
+      "kind": "STATIC",
+      "component": [
+        "com.unity3d.player.UnityPlayerActivity"
+      ]
+    },
+    {
+      "sourceMethod": "\u003ccom.unity3d.player.UnityPlayer: void \u003cinit\u003e(android.content.Context,com.unity3d.player.IUnityPlayerLifecycleEvents)\u003e",
+      "targetMethod": "\u003ccom.unity3d.player.UnityPlayer: java.lang.String loadNative(java.lang.String)\u003e",
+      "sourceStatement": "$r13 \u003d staticinvoke \u003ccom.unity3d.player.UnityPlayer: java.lang.String loadNative(java.lang.String)\u003e($r13)",
+      "kind": "STATIC",
+      "component": [
+        "com.unity3d.player.UnityPlayerActivity"
+      ]
+    },
+    {
+      "sourceMethod": "\u003ccom.unity3d.player.UnityPlayer: java.lang.String loadNative(java.lang.String)\u003e",
+      "targetMethod": "\u003ccom.unity3d.player.m: void a()\u003e",
+      "sourceStatement": "staticinvoke \u003ccom.unity3d.player.m: void a()\u003e()",
+      "kind": "STATIC",
+      "component": [
+        "com.unity3d.player.UnityPlayerActivity"
+      ]
+    },
+    {
+      "sourceMethod": "\u003ccom.unity3d.player.UnityPlayer: void \u003cinit\u003e(android.content.Context,com.unity3d.player.IUnityPlayerLifecycleEvents)\u003e",
+      "targetMethod": "\u003ccom.unity3d.player.m: boolean c()\u003e",
+      "sourceStatement": "$z0 \u003d staticinvoke \u003ccom.unity3d.player.m: boolean c()\u003e()",
+      "kind": "STATIC",
+      "component": [
+        "com.unity3d.player.UnityPlayerActivity"
+      ]
+    },
+    {
+      "sourceMethod": "\u003ccom.unity3d.player.UnityPlayer: void \u003cinit\u003e(android.content.Context,com.unity3d.player.IUnityPlayerLifecycleEvents)\u003e",
+      "targetMethod": "\u003ccom.unity3d.player.m: void c(boolean)\u003e",
+      "sourceStatement": "virtualinvoke $r3.\u003ccom.unity3d.player.m: void c(boolean)\u003e(true)",
+      "kind": "VIRTUAL",
+      "component": [
+        "com.unity3d.player.UnityPlayerActivity"
+      ]
+    },
+    {
+      "sourceMethod": "\u003ccom.unity3d.player.UnityPlayer: void \u003cinit\u003e(android.content.Context,com.unity3d.player.IUnityPlayerLifecycleEvents)\u003e",
+      "targetMethod": "\u003ccom.unity3d.player.UnityPlayer: android.view.SurfaceView CreateGlView()\u003e",
+      "sourceStatement": "$r16 \u003d specialinvoke this.\u003ccom.unity3d.player.UnityPlayer: android.view.SurfaceView CreateGlView()\u003e()",
+      "kind": "SPECIAL",
+      "component": [
+        "com.unity3d.player.UnityPlayerActivity"
+      ]
+    },
+    {
+      "sourceMethod": "\u003ccom.unity3d.player.UnityPlayer: android.view.SurfaceView CreateGlView()\u003e",
+      "targetMethod": "\u003ccom.unity3d.player.UnityPlayer: boolean IsWindowTranslucent()\u003e",
+      "sourceStatement": "$z0 \u003d specialinvoke this.\u003ccom.unity3d.player.UnityPlayer: boolean IsWindowTranslucent()\u003e()",
+      "kind": "SPECIAL",
+      "component": [
+        "com.unity3d.player.UnityPlayerActivity"
+      ]
+    },
+    {
+      "sourceMethod": "\u003ccom.unity3d.player.UnityPlayer: void \u003cinit\u003e(android.content.Context,com.unity3d.player.IUnityPlayerLifecycleEvents)\u003e",
+      "targetMethod": "\u003ccom.unity3d.player.UnityPlayer: java.lang.String GetGlViewContentDescription(android.content.Context)\u003e",
+      "sourceStatement": "$r13 \u003d specialinvoke this.\u003ccom.unity3d.player.UnityPlayer: java.lang.String GetGlViewContentDescription(android.content.Context)\u003e($param0)",
+      "kind": "SPECIAL",
+      "component": [
+        "com.unity3d.player.UnityPlayerActivity"
+      ]
+    },
+    {
+      "sourceMethod": "\u003ccom.unity3d.player.UnityPlayer: void \u003cinit\u003e(android.content.Context,com.unity3d.player.IUnityPlayerLifecycleEvents)\u003e",
+      "targetMethod": "\u003candroid.view.ViewGroup: void addView(android.view.View)\u003e",
+      "sourceStatement": "virtualinvoke this.\u003ccom.unity3d.player.UnityPlayer: void addView(android.view.View)\u003e($r16)",
+      "kind": "VIRTUAL",
+      "component": [
+        "com.unity3d.player.UnityPlayerActivity"
+      ]
+    },
+    {
+      "sourceMethod": "\u003ccom.unity3d.player.UnityPlayer: void \u003cinit\u003e(android.content.Context,com.unity3d.player.IUnityPlayerLifecycleEvents)\u003e",
+      "targetMethod": "\u003candroid.view.ViewGroup: void bringChildToFront(android.view.View)\u003e",
+      "sourceStatement": "virtualinvoke this.\u003ccom.unity3d.player.UnityPlayer: void bringChildToFront(android.view.View)\u003e($r10)",
+      "kind": "VIRTUAL",
+      "component": [
+        "com.unity3d.player.UnityPlayerActivity"
+      ]
+    },
+    {
+      "sourceMethod": "\u003ccom.unity3d.player.UnityPlayer: void \u003cinit\u003e(android.content.Context,com.unity3d.player.IUnityPlayerLifecycleEvents)\u003e",
+      "targetMethod": "\u003ccom.unity3d.player.UnityPlayer: void hideStatusBar()\u003e",
+      "sourceStatement": "specialinvoke this.\u003ccom.unity3d.player.UnityPlayer: void hideStatusBar()\u003e()",
+      "kind": "SPECIAL",
+      "component": [
+        "com.unity3d.player.UnityPlayerActivity"
+      ]
+    },
+    {
+      "sourceMethod": "\u003ccom.unity3d.player.UnityPlayer: void \u003cinit\u003e(android.content.Context,com.unity3d.player.IUnityPlayerLifecycleEvents)\u003e",
+      "targetMethod": "\u003cjava.lang.Thread: void start()\u003e",
+      "sourceStatement": "virtualinvoke $r4.\u003ccom.unity3d.player.UnityPlayer$e: void start()\u003e()",
+      "kind": "VIRTUAL",
+      "component": [
+        "com.unity3d.player.UnityPlayerActivity"
+      ]
+    },
+    {
+      "sourceMethod": "\u003ccom.unity3d.player.UnityPlayer: void \u003cinit\u003e(android.content.Context,com.unity3d.player.IUnityPlayerLifecycleEvents)\u003e",
+      "targetMethod": "\u003ccom.unity3d.player.UnityPlayer$e: void run()\u003e",
+      "sourceStatement": "virtualinvoke $r4.\u003ccom.unity3d.player.UnityPlayer$e: void start()\u003e()",
+      "kind": "GENERIC_FAKE",
+      "component": [
+        "com.unity3d.player.UnityPlayerActivity"
+      ]
+    },
+    {
+      "sourceMethod": "\u003ccom.unity3d.player.UnityPlayerActivity: void onCreate(android.os.Bundle)\u003e",
+      "targetMethod": "\u003candroid.app.Activity: void setContentView(android.view.View)\u003e",
+      "sourceStatement": "virtualinvoke this.\u003ccom.unity3d.player.UnityPlayerActivity: void setContentView(android.view.View)\u003e($r4)",
+      "kind": "VIRTUAL",
+      "component": [
+        "com.unity3d.player.UnityPlayerActivity"
+      ]
+    },
+    {
+      "sourceMethod": "\u003ccom.unity3d.player.UnityPlayerActivity: void onStart()\u003e",
+      "targetMethod": "\u003ccom.unity3d.player.MultiWindowSupport: void \u003cclinit\u003e()\u003e",
+      "sourceStatement": "$z0 \u003d staticinvoke \u003ccom.unity3d.player.MultiWindowSupport: boolean getAllowResizableWindow(android.app.Activity)\u003e(this)",
+      "kind": "CLINIT",
+      "component": [
+        "com.unity3d.player.UnityPlayerActivity"
+      ]
+    },
+    {
+      "sourceMethod": "\u003ccom.unity3d.player.UnityPlayerActivity: void onStart()\u003e",
+      "targetMethod": "\u003ccom.unity3d.player.MultiWindowSupport: boolean getAllowResizableWindow(android.app.Activity)\u003e",
+      "sourceStatement": "$z0 \u003d staticinvoke \u003ccom.unity3d.player.MultiWindowSupport: boolean getAllowResizableWindow(android.app.Activity)\u003e(this)",
+      "kind": "STATIC",
+      "component": [
+        "com.unity3d.player.UnityPlayerActivity"
+      ]
+    },
+    {
+      "sourceMethod": "\u003ccom.unity3d.player.MultiWindowSupport: boolean getAllowResizableWindow(android.app.Activity)\u003e",
+      "targetMethod": "\u003ccom.unity3d.player.MultiWindowSupport: boolean isInMultiWindowMode(android.app.Activity)\u003e",
+      "sourceStatement": "$z0 \u003d staticinvoke \u003ccom.unity3d.player.MultiWindowSupport: boolean isInMultiWindowMode(android.app.Activity)\u003e($param0)",
+      "kind": "STATIC",
+      "component": [
+        "com.unity3d.player.UnityPlayerActivity"
+      ]
+    },
+    {
+      "sourceMethod": "\u003ccom.unity3d.player.UnityPlayer$21: void run()\u003e",
+      "targetMethod": "\u003ccom.unity3d.player.UnityPlayer: void access$1600(com.unity3d.player.UnityPlayer,int,android.view.Surface)\u003e",
+      "sourceStatement": "staticinvoke \u003ccom.unity3d.player.UnityPlayer: void access$1600(com.unity3d.player.UnityPlayer,int,android.view.Surface)\u003e($r2, $i0, $r1)",
+      "kind": "STATIC",
+      "component": [
+        "com.unity3d.player.UnityPlayerActivity"
+      ]
+    },
+    {
+      "sourceMethod": "\u003ccom.unity3d.player.UnityPlayer$e$1: boolean handleMessage(android.os.Message)\u003e",
+      "targetMethod": "\u003ccom.unity3d.player.UnityPlayer$e$1: void a()\u003e",
+      "sourceStatement": "specialinvoke this.\u003ccom.unity3d.player.UnityPlayer$e$1: void a()\u003e()",
+      "kind": "SPECIAL",
+      "component": [
+        "com.unity3d.player.UnityPlayerActivity"
+      ]
+    },
+    {
+      "sourceMethod": "\u003ccom.unity3d.player.UnityPlayerActivity: void onResume()\u003e",
+      "targetMethod": "\u003ccom.unity3d.player.MultiWindowSupport: boolean getAllowResizableWindow(android.app.Activity)\u003e",
+      "sourceStatement": "$z0 \u003d staticinvoke \u003ccom.unity3d.player.MultiWindowSupport: boolean getAllowResizableWindow(android.app.Activity)\u003e(this)",
+      "kind": "STATIC",
+      "component": [
+        "com.unity3d.player.UnityPlayerActivity"
+      ]
+    },
+    {
+      "sourceMethod": "\u003ccom.unity3d.player.UnityPlayerActivity: void onResume()\u003e",
+      "targetMethod": "\u003ccom.unity3d.player.UnityPlayer: void resume()\u003e",
+      "sourceStatement": "virtualinvoke $r1.\u003ccom.unity3d.player.UnityPlayer: void resume()\u003e()",
+      "kind": "VIRTUAL",
+      "component": [
+        "com.unity3d.player.UnityPlayerActivity"
+      ]
+    },
+    {
+      "sourceMethod": "\u003ccom.unity3d.player.UnityPlayer: void resume()\u003e",
+      "targetMethod": "\u003ccom.unity3d.player.m: void b(boolean)\u003e",
+      "sourceStatement": "virtualinvoke $r2.\u003ccom.unity3d.player.m: void b(boolean)\u003e(false)",
+      "kind": "VIRTUAL",
+      "component": [
+        "com.unity3d.player.UnityPlayerActivity"
+      ]
+    },
+    {
+      "sourceMethod": "\u003ccom.unity3d.player.UnityPlayer: void resume()\u003e",
+      "targetMethod": "\u003ccom.unity3d.player.UnityPlayer: void checkResumePlayer()\u003e",
+      "sourceStatement": "specialinvoke this.\u003ccom.unity3d.player.UnityPlayer: void checkResumePlayer()\u003e()",
+      "kind": "SPECIAL",
+      "component": [
+        "com.unity3d.player.UnityPlayerActivity"
+      ]
+    },
+    {
+      "sourceMethod": "\u003ccom.unity3d.player.UnityPlayer: void checkResumePlayer()\u003e",
+      "targetMethod": "\u003ccom.unity3d.player.MultiWindowSupport: boolean getAllowResizableWindow(android.app.Activity)\u003e",
+      "sourceStatement": "$z0 \u003d staticinvoke \u003ccom.unity3d.player.MultiWindowSupport: boolean getAllowResizableWindow(android.app.Activity)\u003e($r1)",
+      "kind": "STATIC",
+      "component": [
+        "com.unity3d.player.UnityPlayerActivity"
+      ]
+    },
+    {
+      "sourceMethod": "\u003ccom.unity3d.player.UnityPlayer: void checkResumePlayer()\u003e",
+      "targetMethod": "\u003ccom.unity3d.player.m: boolean e(boolean)\u003e",
+      "sourceStatement": "$z0 \u003d virtualinvoke $r2.\u003ccom.unity3d.player.m: boolean e(boolean)\u003e($z0)",
+      "kind": "VIRTUAL",
+      "component": [
+        "com.unity3d.player.UnityPlayerActivity"
+      ]
+    },
+    {
+      "sourceMethod": "\u003ccom.unity3d.player.UnityPlayer: void resume()\u003e",
+      "targetMethod": "\u003ccom.unity3d.player.m: boolean c()\u003e",
+      "sourceStatement": "$z0 \u003d staticinvoke \u003ccom.unity3d.player.m: boolean c()\u003e()",
+      "kind": "STATIC",
+      "component": [
+        "com.unity3d.player.UnityPlayerActivity"
+      ]
+    },
+    {
+      "sourceMethod": "\u003ccom.unity3d.player.AudioVolumeHandler: void \u003cinit\u003e(android.content.Context)\u003e",
+      "targetMethod": "\u003ccom.unity3d.player.b: void a(com.unity3d.player.b$b)\u003e",
+      "sourceStatement": "virtualinvoke $r2.\u003ccom.unity3d.player.b: void a(com.unity3d.player.b$b)\u003e(this)",
+      "kind": "VIRTUAL",
+      "component": [
+        "com.unity3d.player.UnityPlayerActivity"
+      ]
+    },
+    {
+      "sourceMethod": "\u003ccom.unity3d.player.b: void a(com.unity3d.player.b$b)\u003e",
+      "targetMethod": "\u003ccom.unity3d.player.b$a: void \u003cinit\u003e(com.unity3d.player.b,android.os.Handler,android.media.AudioManager,int,com.unity3d.player.b$b)\u003e",
+      "sourceStatement": "specialinvoke $r2.\u003ccom.unity3d.player.b$a: void \u003cinit\u003e(com.unity3d.player.b,android.os.Handler,android.media.AudioManager,int,com.unity3d.player.b$b)\u003e(this, $r5, $r1, 3, $param0)",
+      "kind": "SPECIAL",
+      "component": [
+        "com.unity3d.player.UnityPlayerActivity"
+      ]
+    },
+    {
+      "sourceMethod": "\u003ccom.unity3d.player.UnityPlayer: void resume()\u003e",
+      "targetMethod": "\u003ccom.unity3d.player.m: boolean c()\u003e",
+      "sourceStatement": "$z0 \u003d staticinvoke \u003ccom.unity3d.player.m: boolean c()\u003e()",
+      "kind": "STATIC",
+      "component": [
+        "com.unity3d.player.UnityPlayerActivity"
+      ]
+    },
+    {
+      "sourceMethod": "\u003ccom.unity3d.player.OrientationLockListener: void \u003cinit\u003e(android.content.Context)\u003e",
+      "targetMethod": "\u003ccom.unity3d.player.k: void a(com.unity3d.player.k$a,java.lang.String)\u003e",
+      "sourceStatement": "virtualinvoke $r2.\u003ccom.unity3d.player.k: void a(com.unity3d.player.k$a,java.lang.String)\u003e(this, \"accelerometer_rotation\")",
+      "kind": "VIRTUAL",
+      "component": [
+        "com.unity3d.player.UnityPlayerActivity"
+      ]
+    },
+    {
+      "sourceMethod": "\u003ccom.unity3d.player.UnityPlayer$19: void surfaceCreated(android.view.SurfaceHolder)\u003e",
+      "targetMethod": "\u003ccom.unity3d.player.UnityPlayer: void access$1100(com.unity3d.player.UnityPlayer,int,android.view.Surface)\u003e",
+      "sourceStatement": "staticinvoke \u003ccom.unity3d.player.UnityPlayer: void access$1100(com.unity3d.player.UnityPlayer,int,android.view.Surface)\u003e($r2, 0, $r3)",
+      "kind": "STATIC",
+      "component": [
+        "\u003cNONE\u003e"
+      ]
+    },
+    {
+      "sourceMethod": "\u003ccom.unity3d.player.UnityPlayer: void access$1100(com.unity3d.player.UnityPlayer,int,android.view.Surface)\u003e",
+      "targetMethod": "\u003ccom.unity3d.player.UnityPlayer: void updateGLDisplay(int,android.view.Surface)\u003e",
+      "sourceStatement": "specialinvoke $param0.\u003ccom.unity3d.player.UnityPlayer: void updateGLDisplay(int,android.view.Surface)\u003e($param1, $param2)",
+      "kind": "SPECIAL",
+      "component": [
+        "\u003cNONE\u003e",
+        "com.unity3d.player.UnityPlayerActivity"
+      ]
+    },
+    {
+      "sourceMethod": "\u003ccom.unity3d.player.UnityPlayer: void updateGLDisplay(int,android.view.Surface)\u003e",
+      "targetMethod": "\u003ccom.unity3d.player.UnityPlayer: boolean updateDisplayInternal(int,android.view.Surface)\u003e",
+      "sourceStatement": "specialinvoke this.\u003ccom.unity3d.player.UnityPlayer: boolean updateDisplayInternal(int,android.view.Surface)\u003e($param0, $param1)",
+      "kind": "SPECIAL",
+      "component": [
+        "\u003cNONE\u003e",
+        "com.unity3d.player.UnityPlayerActivity"
+      ]
+    },
+    {
+      "sourceMethod": "\u003ccom.unity3d.player.UnityPlayer: boolean updateDisplayInternal(int,android.view.Surface)\u003e",
+      "targetMethod": "\u003ccom.unity3d.player.m: boolean c()\u003e",
+      "sourceStatement": "$z0 \u003d staticinvoke \u003ccom.unity3d.player.m: boolean c()\u003e()",
+      "kind": "STATIC",
+      "component": [
+        "\u003cNONE\u003e",
+        "com.unity3d.player.UnityPlayerActivity"
+      ]
+    },
+    {
+      "sourceMethod": "\u003ccom.unity3d.player.UnityPlayer: boolean updateDisplayInternal(int,android.view.Surface)\u003e",
+      "targetMethod": "\u003ccom.unity3d.player.m: boolean e()\u003e",
+      "sourceStatement": "$z0 \u003d virtualinvoke $r3.\u003ccom.unity3d.player.m: boolean e()\u003e()",
+      "kind": "VIRTUAL",
+      "component": [
+        "\u003cNONE\u003e",
+        "com.unity3d.player.UnityPlayerActivity"
+      ]
+    },
+    {
+      "sourceMethod": "\u003ccom.unity3d.player.UnityPlayer: boolean updateDisplayInternal(int,android.view.Surface)\u003e",
+      "targetMethod": "\u003ccom.unity3d.player.UnityPlayer$e: void c(java.lang.Runnable)\u003e",
+      "sourceStatement": "virtualinvoke $r6.\u003ccom.unity3d.player.UnityPlayer$e: void c(java.lang.Runnable)\u003e($r5)",
+      "kind": "VIRTUAL",
+      "component": [
+        "\u003cNONE\u003e",
+        "com.unity3d.player.UnityPlayerActivity"
+      ]
+    },
+    {
+      "sourceMethod": "\u003ccom.unity3d.player.UnityPlayer$d: void \u003cclinit\u003e()\u003e",
+      "targetMethod": "\u003ccom.unity3d.player.UnityPlayer$d: void \u003cinit\u003e(java.lang.String,int)\u003e",
+      "sourceStatement": "specialinvoke $r1.\u003ccom.unity3d.player.UnityPlayer$d: void \u003cinit\u003e(java.lang.String,int)\u003e(\"PAUSE\", 0)",
+      "kind": "SPECIAL",
+      "component": [
+        "\u003cNONE\u003e"
+      ]
+    },
+    {
+      "sourceMethod": "\u003ccom.unity3d.player.UnityPlayer$d: void \u003cclinit\u003e()\u003e",
+      "targetMethod": "\u003ccom.unity3d.player.UnityPlayer$d: void \u003cinit\u003e(java.lang.String,int)\u003e",
+      "sourceStatement": "specialinvoke $r1.\u003ccom.unity3d.player.UnityPlayer$d: void \u003cinit\u003e(java.lang.String,int)\u003e(\"RESUME\", 1)",
+      "kind": "SPECIAL",
+      "component": [
+        "\u003cNONE\u003e"
+      ]
+    },
+    {
+      "sourceMethod": "\u003ccom.unity3d.player.UnityPlayer$d: void \u003cclinit\u003e()\u003e",
+      "targetMethod": "\u003ccom.unity3d.player.UnityPlayer$d: void \u003cinit\u003e(java.lang.String,int)\u003e",
+      "sourceStatement": "specialinvoke $r1.\u003ccom.unity3d.player.UnityPlayer$d: void \u003cinit\u003e(java.lang.String,int)\u003e(\"QUIT\", 2)",
+      "kind": "SPECIAL",
+      "component": [
+        "\u003cNONE\u003e"
+      ]
+    },
+    {
+      "sourceMethod": "\u003ccom.unity3d.player.UnityPlayer$d: void \u003cclinit\u003e()\u003e",
+      "targetMethod": "\u003ccom.unity3d.player.UnityPlayer$d: void \u003cinit\u003e(java.lang.String,int)\u003e",
+      "sourceStatement": "specialinvoke $r1.\u003ccom.unity3d.player.UnityPlayer$d: void \u003cinit\u003e(java.lang.String,int)\u003e(\"SURFACE_LOST\", 3)",
+      "kind": "SPECIAL",
+      "component": [
+        "\u003cNONE\u003e"
+      ]
+    },
+    {
+      "sourceMethod": "\u003ccom.unity3d.player.UnityPlayer$d: void \u003cclinit\u003e()\u003e",
+      "targetMethod": "\u003ccom.unity3d.player.UnityPlayer$d: void \u003cinit\u003e(java.lang.String,int)\u003e",
+      "sourceStatement": "specialinvoke $r1.\u003ccom.unity3d.player.UnityPlayer$d: void \u003cinit\u003e(java.lang.String,int)\u003e(\"SURFACE_ACQUIRED\", 4)",
+      "kind": "SPECIAL",
+      "component": [
+        "\u003cNONE\u003e"
+      ]
+    },
+    {
+      "sourceMethod": "\u003ccom.unity3d.player.UnityPlayer$d: void \u003cclinit\u003e()\u003e",
+      "targetMethod": "\u003ccom.unity3d.player.UnityPlayer$d: void \u003cinit\u003e(java.lang.String,int)\u003e",
+      "sourceStatement": "specialinvoke $r1.\u003ccom.unity3d.player.UnityPlayer$d: void \u003cinit\u003e(java.lang.String,int)\u003e(\"FOCUS_LOST\", 5)",
+      "kind": "SPECIAL",
+      "component": [
+        "\u003cNONE\u003e"
+      ]
+    },
+    {
+      "sourceMethod": "\u003ccom.unity3d.player.UnityPlayer$d: void \u003cclinit\u003e()\u003e",
+      "targetMethod": "\u003ccom.unity3d.player.UnityPlayer$d: void \u003cinit\u003e(java.lang.String,int)\u003e",
+      "sourceStatement": "specialinvoke $r1.\u003ccom.unity3d.player.UnityPlayer$d: void \u003cinit\u003e(java.lang.String,int)\u003e(\"FOCUS_GAINED\", 6)",
+      "kind": "SPECIAL",
+      "component": [
+        "\u003cNONE\u003e"
+      ]
+    },
+    {
+      "sourceMethod": "\u003ccom.unity3d.player.UnityPlayer$d: void \u003cclinit\u003e()\u003e",
+      "targetMethod": "\u003ccom.unity3d.player.UnityPlayer$d: void \u003cinit\u003e(java.lang.String,int)\u003e",
+      "sourceStatement": "specialinvoke $r1.\u003ccom.unity3d.player.UnityPlayer$d: void \u003cinit\u003e(java.lang.String,int)\u003e(\"NEXT_FRAME\", 7)",
+      "kind": "SPECIAL",
+      "component": [
+        "\u003cNONE\u003e"
+      ]
+    },
+    {
+      "sourceMethod": "\u003ccom.unity3d.player.UnityPlayer$d: void \u003cclinit\u003e()\u003e",
+      "targetMethod": "\u003ccom.unity3d.player.UnityPlayer$d: void \u003cinit\u003e(java.lang.String,int)\u003e",
+      "sourceStatement": "specialinvoke $r1.\u003ccom.unity3d.player.UnityPlayer$d: void \u003cinit\u003e(java.lang.String,int)\u003e(\"URL_ACTIVATED\", 8)",
+      "kind": "SPECIAL",
+      "component": [
+        "\u003cNONE\u003e"
+      ]
+    },
+    {
+      "sourceMethod": "\u003ccom.unity3d.player.UnityPlayer$d: void \u003cclinit\u003e()\u003e",
+      "targetMethod": "\u003ccom.unity3d.player.UnityPlayer$d: void \u003cinit\u003e(java.lang.String,int)\u003e",
+      "sourceStatement": "specialinvoke $r1.\u003ccom.unity3d.player.UnityPlayer$d: void \u003cinit\u003e(java.lang.String,int)\u003e(\"ORIENTATION_ANGLE_CHANGE\", 9)",
+      "kind": "SPECIAL",
+      "component": [
+        "\u003cNONE\u003e"
+      ]
+    },
+    {
+      "sourceMethod": "\u003ccom.unity3d.player.UnityPlayer$e: void c(java.lang.Runnable)\u003e",
+      "targetMethod": "\u003ccom.unity3d.player.UnityPlayer$e: void a(com.unity3d.player.UnityPlayer$d)\u003e",
+      "sourceStatement": "specialinvoke this.\u003ccom.unity3d.player.UnityPlayer$e: void a(com.unity3d.player.UnityPlayer$d)\u003e($r4)",
+      "kind": "SPECIAL",
+      "component": [
+        "\u003cNONE\u003e",
+        "com.unity3d.player.UnityPlayerActivity"
+      ]
+    },
+    {
+      "sourceMethod": "\u003ccom.unity3d.player.UnityPlayer$19: void surfaceCreated(android.view.SurfaceHolder)\u003e",
+      "targetMethod": "\u003ccom.unity3d.player.UnityPlayer: com.unity3d.player.h access$1200(com.unity3d.player.UnityPlayer)\u003e",
+      "sourceStatement": "$r4 \u003d staticinvoke \u003ccom.unity3d.player.UnityPlayer: com.unity3d.player.h access$1200(com.unity3d.player.UnityPlayer)\u003e($r2)",
+      "kind": "STATIC",
+      "component": [
+        "\u003cNONE\u003e"
+      ]
+    },
+    {
+      "sourceMethod": "\u003ccom.unity3d.player.UnityPlayer$19: void surfaceCreated(android.view.SurfaceHolder)\u003e",
+      "targetMethod": "\u003ccom.unity3d.player.UnityPlayer: com.unity3d.player.h access$1200(com.unity3d.player.UnityPlayer)\u003e",
+      "sourceStatement": "$r4 \u003d staticinvoke \u003ccom.unity3d.player.UnityPlayer: com.unity3d.player.h access$1200(com.unity3d.player.UnityPlayer)\u003e($r2)",
+      "kind": "STATIC",
+      "component": [
+        "\u003cNONE\u003e"
+      ]
+    },
+    {
+      "sourceMethod": "\u003ccom.unity3d.player.UnityPlayer$19: void surfaceCreated(android.view.SurfaceHolder)\u003e",
+      "targetMethod": "\u003ccom.unity3d.player.h: void a(android.view.ViewGroup)\u003e",
+      "sourceStatement": "virtualinvoke $r4.\u003ccom.unity3d.player.h: void a(android.view.ViewGroup)\u003e($r2)",
+      "kind": "VIRTUAL",
+      "component": [
+        "\u003cNONE\u003e"
+      ]
+    },
+    {
+      "sourceMethod": "\u003ccom.unity3d.player.UnityPlayer$19: void surfaceChanged(android.view.SurfaceHolder,int,int,int)\u003e",
+      "targetMethod": "\u003ccom.unity3d.player.UnityPlayer: void access$1100(com.unity3d.player.UnityPlayer,int,android.view.Surface)\u003e",
+      "sourceStatement": "staticinvoke \u003ccom.unity3d.player.UnityPlayer: void access$1100(com.unity3d.player.UnityPlayer,int,android.view.Surface)\u003e($r3, 0, $r1)",
+      "kind": "STATIC",
+      "component": [
+        "\u003cNONE\u003e",
+        "com.unity3d.player.UnityPlayerActivity"
+      ]
+    },
+    {
+      "sourceMethod": "\u003ccom.unity3d.player.UnityPlayer$19: void surfaceChanged(android.view.SurfaceHolder,int,int,int)\u003e",
+      "targetMethod": "\u003ccom.unity3d.player.UnityPlayer: void access$1300(com.unity3d.player.UnityPlayer)\u003e",
+      "sourceStatement": "staticinvoke \u003ccom.unity3d.player.UnityPlayer: void access$1300(com.unity3d.player.UnityPlayer)\u003e($r3)",
+      "kind": "STATIC",
+      "component": [
+        "\u003cNONE\u003e",
+        "com.unity3d.player.UnityPlayerActivity"
+      ]
+    },
+    {
+      "sourceMethod": "\u003ccom.unity3d.player.UnityPlayer: void access$1300(com.unity3d.player.UnityPlayer)\u003e",
+      "targetMethod": "\u003ccom.unity3d.player.UnityPlayer: void sendSurfaceChangedEvent()\u003e",
+      "sourceStatement": "specialinvoke $param0.\u003ccom.unity3d.player.UnityPlayer: void sendSurfaceChangedEvent()\u003e()",
+      "kind": "SPECIAL",
+      "component": [
+        "\u003cNONE\u003e",
+        "com.unity3d.player.UnityPlayerActivity"
+      ]
+    },
+    {
+      "sourceMethod": "\u003ccom.unity3d.player.UnityPlayer: void sendSurfaceChangedEvent()\u003e",
+      "targetMethod": "\u003ccom.unity3d.player.m: boolean c()\u003e",
+      "sourceStatement": "$z0 \u003d staticinvoke \u003ccom.unity3d.player.m: boolean c()\u003e()",
+      "kind": "STATIC",
+      "component": [
+        "\u003cNONE\u003e",
+        "com.unity3d.player.UnityPlayerActivity"
+      ]
+    },
+    {
+      "sourceMethod": "\u003ccom.unity3d.player.UnityPlayer: void sendSurfaceChangedEvent()\u003e",
+      "targetMethod": "\u003ccom.unity3d.player.m: boolean e()\u003e",
+      "sourceStatement": "$z0 \u003d virtualinvoke $r2.\u003ccom.unity3d.player.m: boolean e()\u003e()",
+      "kind": "VIRTUAL",
+      "component": [
+        "\u003cNONE\u003e",
+        "com.unity3d.player.UnityPlayerActivity"
+      ]
+    },
+    {
+      "sourceMethod": "\u003ccom.unity3d.player.UnityPlayer: void sendSurfaceChangedEvent()\u003e",
+      "targetMethod": "\u003ccom.unity3d.player.UnityPlayer$e: void d(java.lang.Runnable)\u003e",
+      "sourceStatement": "virtualinvoke $r1.\u003ccom.unity3d.player.UnityPlayer$e: void d(java.lang.Runnable)\u003e($r3)",
+      "kind": "VIRTUAL",
+      "component": [
+        "\u003cNONE\u003e",
+        "com.unity3d.player.UnityPlayerActivity"
+      ]
+    },
+    {
+      "sourceMethod": "\u003ccom.unity3d.player.UnityPlayer$20: void run()\u003e",
+      "targetMethod": "\u003ccom.unity3d.player.UnityPlayer: void access$1500(com.unity3d.player.UnityPlayer)\u003e",
+      "sourceStatement": "staticinvoke \u003ccom.unity3d.player.UnityPlayer: void access$1500(com.unity3d.player.UnityPlayer)\u003e($r1)",
+      "kind": "STATIC",
+      "component": [
+        "com.unity3d.player.UnityPlayerActivity"
+      ]
+    },
+    {
+      "sourceMethod": "\u003ccom.unity3d.player.UnityPlayerActivity: void onPause()\u003e",
+      "targetMethod": "\u003ccom.unity3d.player.MultiWindowSupport: void saveMultiWindowMode(android.app.Activity)\u003e",
+      "sourceStatement": "staticinvoke \u003ccom.unity3d.player.MultiWindowSupport: void saveMultiWindowMode(android.app.Activity)\u003e(this)",
+      "kind": "STATIC",
+      "component": [
+        "com.unity3d.player.UnityPlayerActivity"
+      ]
+    },
+    {
+      "sourceMethod": "\u003ccom.unity3d.player.MultiWindowSupport: void saveMultiWindowMode(android.app.Activity)\u003e",
+      "targetMethod": "\u003ccom.unity3d.player.MultiWindowSupport: boolean isInMultiWindowMode(android.app.Activity)\u003e",
+      "sourceStatement": "$z0 \u003d staticinvoke \u003ccom.unity3d.player.MultiWindowSupport: boolean isInMultiWindowMode(android.app.Activity)\u003e($param0)",
+      "kind": "STATIC",
+      "component": [
+        "com.unity3d.player.UnityPlayerActivity"
+      ]
+    },
+    {
+      "sourceMethod": "\u003ccom.unity3d.player.UnityPlayerActivity: void onPause()\u003e",
+      "targetMethod": "\u003ccom.unity3d.player.MultiWindowSupport: boolean getAllowResizableWindow(android.app.Activity)\u003e",
+      "sourceStatement": "$z0 \u003d staticinvoke \u003ccom.unity3d.player.MultiWindowSupport: boolean getAllowResizableWindow(android.app.Activity)\u003e(this)",
+      "kind": "STATIC",
+      "component": [
+        "com.unity3d.player.UnityPlayerActivity"
+      ]
+    },
+    {
+      "sourceMethod": "\u003ccom.unity3d.player.UnityPlayerActivity: void onPause()\u003e",
+      "targetMethod": "\u003ccom.unity3d.player.UnityPlayer: void pause()\u003e",
+      "sourceStatement": "virtualinvoke $r1.\u003ccom.unity3d.player.UnityPlayer: void pause()\u003e()",
+      "kind": "VIRTUAL",
+      "component": [
+        "com.unity3d.player.UnityPlayerActivity"
+      ]
+    },
+    {
+      "sourceMethod": "\u003ccom.unity3d.player.UnityPlayer: void pause()\u003e",
+      "targetMethod": "\u003ccom.unity3d.player.AudioVolumeHandler: void a()\u003e",
+      "sourceStatement": "virtualinvoke $r3.\u003ccom.unity3d.player.AudioVolumeHandler: void a()\u003e()",
+      "kind": "VIRTUAL",
+      "component": [
+        "com.unity3d.player.UnityPlayerActivity"
+      ]
+    },
+    {
+      "sourceMethod": "\u003ccom.unity3d.player.AudioVolumeHandler: void a()\u003e",
+      "targetMethod": "\u003ccom.unity3d.player.b: void a()\u003e",
+      "sourceStatement": "virtualinvoke $r1.\u003ccom.unity3d.player.b: void a()\u003e()",
+      "kind": "VIRTUAL",
+      "component": [
+        "com.unity3d.player.UnityPlayerActivity"
+      ]
+    },
+    {
+      "sourceMethod": "\u003ccom.unity3d.player.UnityPlayer: void pause()\u003e",
+      "targetMethod": "\u003ccom.unity3d.player.OrientationLockListener: void a()\u003e",
+      "sourceStatement": "virtualinvoke $r4.\u003ccom.unity3d.player.OrientationLockListener: void a()\u003e()",
+      "kind": "VIRTUAL",
+      "component": [
+        "com.unity3d.player.UnityPlayerActivity"
+      ]
+    },
+    {
+      "sourceMethod": "\u003ccom.unity3d.player.OrientationLockListener: void a()\u003e",
+      "targetMethod": "\u003ccom.unity3d.player.k: void a()\u003e",
+      "sourceStatement": "virtualinvoke $r1.\u003ccom.unity3d.player.k: void a()\u003e()",
+      "kind": "VIRTUAL",
+      "component": [
+        "com.unity3d.player.UnityPlayerActivity"
+      ]
+    },
+    {
+      "sourceMethod": "\u003ccom.unity3d.player.UnityPlayer: void pause()\u003e",
+      "targetMethod": "\u003ccom.unity3d.player.UnityPlayer: void pauseUnity()\u003e",
+      "sourceStatement": "specialinvoke this.\u003ccom.unity3d.player.UnityPlayer: void pauseUnity()\u003e()",
+      "kind": "SPECIAL",
+      "component": [
+        "com.unity3d.player.UnityPlayerActivity"
+      ]
+    },
+    {
+      "sourceMethod": "\u003ccom.unity3d.player.UnityPlayer: void pauseUnity()\u003e",
+      "targetMethod": "\u003ccom.unity3d.player.UnityPlayer: void reportSoftInputStr(java.lang.String,int,boolean)\u003e",
+      "sourceStatement": "virtualinvoke this.\u003ccom.unity3d.player.UnityPlayer: void reportSoftInputStr(java.lang.String,int,boolean)\u003e(null, 1, true)",
+      "kind": "VIRTUAL",
+      "component": [
+        "com.unity3d.player.UnityPlayerActivity"
+      ]
+    },
+    {
+      "sourceMethod": "\u003ccom.unity3d.player.UnityPlayer: void reportSoftInputStr(java.lang.String,int,boolean)\u003e",
+      "targetMethod": "\u003ccom.unity3d.player.UnityPlayer: void hideSoftInput()\u003e",
+      "sourceStatement": "virtualinvoke this.\u003ccom.unity3d.player.UnityPlayer: void hideSoftInput()\u003e()",
+      "kind": "VIRTUAL",
+      "component": [
+        "com.unity3d.player.UnityPlayerActivity"
+      ]
+    },
+    {
+      "sourceMethod": "\u003ccom.unity3d.player.UnityPlayer: void hideSoftInput()\u003e",
+      "targetMethod": "\u003ccom.unity3d.player.UnityPlayer: void postOnUiThread(java.lang.Runnable)\u003e",
+      "sourceStatement": "virtualinvoke this.\u003ccom.unity3d.player.UnityPlayer: void postOnUiThread(java.lang.Runnable)\u003e($r1)",
+      "kind": "VIRTUAL",
+      "component": [
+        "com.unity3d.player.UnityPlayerActivity"
+      ]
+    },
+    {
+      "sourceMethod": "\u003ccom.unity3d.player.UnityPlayer: void postOnUiThread(java.lang.Runnable)\u003e",
+      "targetMethod": "\u003candroid.os.Handler: boolean post(java.lang.Runnable)\u003e",
+      "sourceStatement": "virtualinvoke $r2.\u003candroid.os.Handler: boolean post(java.lang.Runnable)\u003e($param0)",
+      "kind": "VIRTUAL",
+      "component": [
+        "com.unity3d.player.UnityPlayerActivity"
+      ]
+    },
+    {
+      "sourceMethod": "\u003ccom.unity3d.player.UnityPlayer$10: void \u003cinit\u003e(com.unity3d.player.UnityPlayer,boolean,java.lang.String,int)\u003e",
+      "targetMethod": "\u003ccom.unity3d.player.UnityPlayer$f: void \u003cinit\u003e(com.unity3d.player.UnityPlayer)\u003e",
+      "sourceStatement": "specialinvoke this.\u003ccom.unity3d.player.UnityPlayer$f: void \u003cinit\u003e(com.unity3d.player.UnityPlayer,byte)\u003e($param0, 0)",
+      "kind": "SPECIAL",
+      "component": [
+        "com.unity3d.player.UnityPlayerActivity"
+      ]
+    },
+    {
+      "sourceMethod": "\u003ccom.unity3d.player.UnityPlayer: void reportSoftInputStr(java.lang.String,int,boolean)\u003e",
+      "targetMethod": "\u003ccom.unity3d.player.UnityPlayer: void queueGLThreadEvent(com.unity3d.player.UnityPlayer$f)\u003e",
+      "sourceStatement": "specialinvoke this.\u003ccom.unity3d.player.UnityPlayer: void queueGLThreadEvent(com.unity3d.player.UnityPlayer$f)\u003e($r2)",
+      "kind": "SPECIAL",
+      "component": [
+        "com.unity3d.player.UnityPlayerActivity"
+      ]
+    },
+    {
+      "sourceMethod": "\u003ccom.unity3d.player.UnityPlayer: void queueGLThreadEvent(com.unity3d.player.UnityPlayer$f)\u003e",
+      "targetMethod": "\u003ccom.unity3d.player.UnityPlayer: boolean isFinishing()\u003e",
+      "sourceStatement": "$z0 \u003d virtualinvoke this.\u003ccom.unity3d.player.UnityPlayer: boolean isFinishing()\u003e()",
+      "kind": "VIRTUAL",
+      "component": [
+        "com.unity3d.player.UnityPlayerActivity"
+      ]
+    },
+    {
+      "sourceMethod": "\u003ccom.unity3d.player.UnityPlayer: void queueGLThreadEvent(com.unity3d.player.UnityPlayer$f)\u003e",
+      "targetMethod": "\u003ccom.unity3d.player.UnityPlayer: void queueGLThreadEvent(java.lang.Runnable)\u003e",
+      "sourceStatement": "specialinvoke this.\u003ccom.unity3d.player.UnityPlayer: void queueGLThreadEvent(java.lang.Runnable)\u003e($param0)",
+      "kind": "SPECIAL",
+      "component": [
+        "com.unity3d.player.UnityPlayerActivity"
+      ]
+    },
+    {
+      "sourceMethod": "\u003ccom.unity3d.player.UnityPlayer: void queueGLThreadEvent(java.lang.Runnable)\u003e",
+      "targetMethod": "\u003ccom.unity3d.player.m: boolean c()\u003e",
+      "sourceStatement": "$z0 \u003d staticinvoke \u003ccom.unity3d.player.m: boolean c()\u003e()",
+      "kind": "STATIC",
+      "component": [
+        "com.unity3d.player.UnityPlayerActivity"
+      ]
+    },
+    {
+      "sourceMethod": "\u003ccom.unity3d.player.UnityPlayer: void pauseUnity()\u003e",
+      "targetMethod": "\u003ccom.unity3d.player.m: boolean f()\u003e",
+      "sourceStatement": "$z0 \u003d virtualinvoke $r4.\u003ccom.unity3d.player.m: boolean f()\u003e()",
+      "kind": "VIRTUAL",
+      "component": [
+        "com.unity3d.player.UnityPlayerActivity"
+      ]
+    },
+    {
+      "sourceMethod": "\u003ccom.unity3d.player.UnityPlayerActivity: void onNewIntent(android.content.Intent)\u003e",
+      "targetMethod": "\u003candroid.app.Activity: void setIntent(android.content.Intent)\u003e",
+      "sourceStatement": "virtualinvoke this.\u003ccom.unity3d.player.UnityPlayerActivity: void setIntent(android.content.Intent)\u003e($param0)",
+      "kind": "VIRTUAL",
+      "component": [
+        "com.unity3d.player.UnityPlayerActivity"
+      ]
+    },
+    {
+      "sourceMethod": "\u003ccom.unity3d.player.UnityPlayerActivity: void onNewIntent(android.content.Intent)\u003e",
+      "targetMethod": "\u003ccom.unity3d.player.UnityPlayer: void newIntent(android.content.Intent)\u003e",
+      "sourceStatement": "virtualinvoke $r2.\u003ccom.unity3d.player.UnityPlayer: void newIntent(android.content.Intent)\u003e($param0)",
+      "kind": "VIRTUAL",
+      "component": [
+        "\u003cNONE\u003e",
+        "com.unity3d.player.UnityPlayerActivity"
+      ]
+    },
+    {
+      "sourceMethod": "\u003ccom.unity3d.player.UnityPlayer: void newIntent(android.content.Intent)\u003e",
+      "targetMethod": "\u003ccom.unity3d.player.UnityPlayer$e: void e()\u003e",
+      "sourceStatement": "virtualinvoke $r3.\u003ccom.unity3d.player.UnityPlayer$e: void e()\u003e()",
+      "kind": "VIRTUAL",
+      "component": [
+        "\u003cNONE\u003e",
+        "com.unity3d.player.UnityPlayerActivity"
+      ]
+    },
+    {
+      "sourceMethod": "\u003ccom.unity3d.player.UnityPlayer$e: void e()\u003e",
+      "targetMethod": "\u003ccom.unity3d.player.UnityPlayer$e: void a(com.unity3d.player.UnityPlayer$d)\u003e",
+      "sourceStatement": "specialinvoke this.\u003ccom.unity3d.player.UnityPlayer$e: void a(com.unity3d.player.UnityPlayer$d)\u003e($r1)",
+      "kind": "SPECIAL",
+      "component": [
+        "\u003cNONE\u003e",
+        "com.unity3d.player.UnityPlayerActivity"
+      ]
+    },
+    {
+      "sourceMethod": "\u003ccom.unity3d.player.UnityPlayer: void postOnUiThread(java.lang.Runnable)\u003e",
+      "targetMethod": "\u003ccom.unity3d.player.UnityPlayer$5: void run()\u003e",
+      "sourceStatement": "virtualinvoke $r2.\u003candroid.os.Handler: boolean post(java.lang.Runnable)\u003e($param0)",
+      "kind": "EXECUTOR",
+      "component": [
+        "com.unity3d.player.UnityPlayerActivity"
+      ]
+    },
+    {
+      "sourceMethod": "\u003ccom.unity3d.player.UnityPlayer$5: void run()\u003e",
+      "targetMethod": "\u003ccom.unity3d.player.UnityPlayer: void reportSoftInputArea(android.graphics.Rect)\u003e",
+      "sourceStatement": "virtualinvoke $r1.\u003ccom.unity3d.player.UnityPlayer: void reportSoftInputArea(android.graphics.Rect)\u003e($r2)",
+      "kind": "VIRTUAL",
+      "component": [
+        "com.unity3d.player.UnityPlayerActivity"
+      ]
+    },
+    {
+      "sourceMethod": "\u003ccom.unity3d.player.UnityPlayer$12: void \u003cinit\u003e(com.unity3d.player.UnityPlayer,android.graphics.Rect)\u003e",
+      "targetMethod": "\u003ccom.unity3d.player.UnityPlayer$f: void \u003cinit\u003e(com.unity3d.player.UnityPlayer)\u003e",
+      "sourceStatement": "specialinvoke this.\u003ccom.unity3d.player.UnityPlayer$f: void \u003cinit\u003e(com.unity3d.player.UnityPlayer,byte)\u003e($param0, 0)",
+      "kind": "SPECIAL",
+      "component": [
+        "com.unity3d.player.UnityPlayerActivity"
+      ]
+    },
+    {
+      "sourceMethod": "\u003ccom.unity3d.player.UnityPlayer: void reportSoftInputArea(android.graphics.Rect)\u003e",
+      "targetMethod": "\u003ccom.unity3d.player.UnityPlayer: void queueGLThreadEvent(com.unity3d.player.UnityPlayer$f)\u003e",
+      "sourceStatement": "specialinvoke this.\u003ccom.unity3d.player.UnityPlayer: void queueGLThreadEvent(com.unity3d.player.UnityPlayer$f)\u003e($r2)",
+      "kind": "SPECIAL",
+      "component": [
+        "com.unity3d.player.UnityPlayerActivity"
+      ]
+    },
+    {
+      "sourceMethod": "\u003ccom.unity3d.player.UnityPlayer$5: void run()\u003e",
+      "targetMethod": "\u003ccom.unity3d.player.UnityPlayer: void reportSoftInputIsVisible(boolean)\u003e",
+      "sourceStatement": "virtualinvoke $r1.\u003ccom.unity3d.player.UnityPlayer: void reportSoftInputIsVisible(boolean)\u003e(false)",
+      "kind": "VIRTUAL",
+      "component": [
+        "com.unity3d.player.UnityPlayerActivity"
+      ]
+    },
+    {
+      "sourceMethod": "\u003ccom.unity3d.player.UnityPlayer$13: void \u003cinit\u003e(com.unity3d.player.UnityPlayer,boolean)\u003e",
+      "targetMethod": "\u003ccom.unity3d.player.UnityPlayer$f: void \u003cinit\u003e(com.unity3d.player.UnityPlayer)\u003e",
+      "sourceStatement": "specialinvoke this.\u003ccom.unity3d.player.UnityPlayer$f: void \u003cinit\u003e(com.unity3d.player.UnityPlayer,byte)\u003e($param0, 0)",
+      "kind": "SPECIAL",
+      "component": [
+        "com.unity3d.player.UnityPlayerActivity"
+      ]
+    },
+    {
+      "sourceMethod": "\u003ccom.unity3d.player.UnityPlayer: void reportSoftInputIsVisible(boolean)\u003e",
+      "targetMethod": "\u003ccom.unity3d.player.UnityPlayer: void queueGLThreadEvent(com.unity3d.player.UnityPlayer$f)\u003e",
+      "sourceStatement": "specialinvoke this.\u003ccom.unity3d.player.UnityPlayer: void queueGLThreadEvent(com.unity3d.player.UnityPlayer$f)\u003e($r1)",
+      "kind": "SPECIAL",
+      "component": [
+        "com.unity3d.player.UnityPlayerActivity"
+      ]
+    },
+    {
+      "sourceMethod": "\u003ccom.unity3d.player.UnityPlayer$e$1: boolean handleMessage(android.os.Message)\u003e",
+      "targetMethod": "\u003ccom.unity3d.player.UnityPlayer: java.lang.String getLaunchURL()\u003e",
+      "sourceStatement": "$r9 \u003d virtualinvoke $r8.\u003ccom.unity3d.player.UnityPlayer: java.lang.String getLaunchURL()\u003e()",
+      "kind": "VIRTUAL",
+      "component": [
+        "com.unity3d.player.UnityPlayerActivity"
+      ]
+    },
+    {
+      "sourceMethod": "\u003ccom.unity3d.player.UnityPlayer$e$1: boolean handleMessage(android.os.Message)\u003e",
+      "targetMethod": "\u003ccom.unity3d.player.UnityPlayer: void access$500(com.unity3d.player.UnityPlayer,java.lang.String)\u003e",
+      "sourceStatement": "staticinvoke \u003ccom.unity3d.player.UnityPlayer: void access$500(com.unity3d.player.UnityPlayer,java.lang.String)\u003e($r6, $r9)",
+      "kind": "STATIC",
+      "component": [
+        "com.unity3d.player.UnityPlayerActivity"
+      ]
+    },
+    {
+      "sourceMethod": "\u003ccom.unity3d.player.UnityPlayer$e$1: void a()\u003e",
+      "targetMethod": "\u003ccom.unity3d.player.UnityPlayer: void access$000(com.unity3d.player.UnityPlayer,boolean)\u003e",
+      "sourceStatement": "staticinvoke \u003ccom.unity3d.player.UnityPlayer: void access$000(com.unity3d.player.UnityPlayer,boolean)\u003e($r2, true)",
+      "kind": "STATIC",
+      "component": [
+        "com.unity3d.player.UnityPlayerActivity"
+      ]
+    },
+    {
+      "sourceMethod": "\u003ccom.unity3d.player.UnityPlayer$e$1: boolean handleMessage(android.os.Message)\u003e",
+      "targetMethod": "\u003ccom.unity3d.player.UnityPlayer: void executeGLThreadJobs()\u003e",
+      "sourceStatement": "virtualinvoke $r6.\u003ccom.unity3d.player.UnityPlayer: void executeGLThreadJobs()\u003e()",
+      "kind": "VIRTUAL",
+      "component": [
+        "com.unity3d.player.UnityPlayerActivity"
+      ]
+    },
+    {
+      "sourceMethod": "\u003ccom.unity3d.player.UnityPlayer$f: void run()\u003e",
+      "targetMethod": "\u003ccom.unity3d.player.UnityPlayer: boolean isFinishing()\u003e",
+      "sourceStatement": "$z0 \u003d virtualinvoke $r1.\u003ccom.unity3d.player.UnityPlayer: boolean isFinishing()\u003e()",
+      "kind": "VIRTUAL",
+      "component": [
+        "com.unity3d.player.UnityPlayerActivity"
+      ]
+    },
+    {
+      "sourceMethod": "\u003ccom.unity3d.player.UnityPlayer$f: void run()\u003e",
+      "targetMethod": "\u003ccom.unity3d.player.UnityPlayer$10: void a()\u003e",
+      "sourceStatement": "virtualinvoke this.\u003ccom.unity3d.player.UnityPlayer$f: void a()\u003e()",
+      "kind": "VIRTUAL",
+      "component": [
+        "com.unity3d.player.UnityPlayerActivity"
+      ]
+    },
+    {
+      "sourceMethod": "\u003ccom.unity3d.player.UnityPlayer$10: void a()\u003e",
+      "targetMethod": "\u003ccom.unity3d.player.UnityPlayer: void access$2700(com.unity3d.player.UnityPlayer)\u003e",
+      "sourceStatement": "staticinvoke \u003ccom.unity3d.player.UnityPlayer: void access$2700(com.unity3d.player.UnityPlayer)\u003e($r1)",
+      "kind": "STATIC",
+      "component": [
+        "com.unity3d.player.UnityPlayerActivity"
+      ]
+    },
+    {
+      "sourceMethod": "\u003ccom.unity3d.player.UnityPlayer$10: void a()\u003e",
+      "targetMethod": "\u003ccom.unity3d.player.UnityPlayer: void access$2900(com.unity3d.player.UnityPlayer)\u003e",
+      "sourceStatement": "staticinvoke \u003ccom.unity3d.player.UnityPlayer: void access$2900(com.unity3d.player.UnityPlayer)\u003e($r1)",
+      "kind": "STATIC",
+      "component": [
+        "com.unity3d.player.UnityPlayerActivity"
+      ]
+    },
+    {
+      "sourceMethod": "\u003ccom.unity3d.player.UnityPlayer$f: void run()\u003e",
+      "targetMethod": "\u003ccom.unity3d.player.UnityPlayer$12: void a()\u003e",
+      "sourceStatement": "virtualinvoke this.\u003ccom.unity3d.player.UnityPlayer$f: void a()\u003e()",
+      "kind": "VIRTUAL",
+      "component": [
+        "com.unity3d.player.UnityPlayerActivity"
+      ]
+    },
+    {
+      "sourceMethod": "\u003ccom.unity3d.player.UnityPlayer$12: void a()\u003e",
+      "targetMethod": "\u003ccom.unity3d.player.UnityPlayer: void access$3100(com.unity3d.player.UnityPlayer,int,int,int,int)\u003e",
+      "sourceStatement": "staticinvoke \u003ccom.unity3d.player.UnityPlayer: void access$3100(com.unity3d.player.UnityPlayer,int,int,int,int)\u003e($r1, $i0, $i1, $i2, $i3)",
+      "kind": "STATIC",
+      "component": [
+        "com.unity3d.player.UnityPlayerActivity"
+      ]
+    },
+    {
+      "sourceMethod": "\u003ccom.unity3d.player.UnityPlayer$f: void run()\u003e",
+      "targetMethod": "\u003ccom.unity3d.player.UnityPlayer$13: void a()\u003e",
+      "sourceStatement": "virtualinvoke this.\u003ccom.unity3d.player.UnityPlayer$f: void a()\u003e()",
+      "kind": "VIRTUAL",
+      "component": [
+        "com.unity3d.player.UnityPlayerActivity"
+      ]
+    },
+    {
+      "sourceMethod": "\u003ccom.unity3d.player.UnityPlayer$13: void a()\u003e",
+      "targetMethod": "\u003ccom.unity3d.player.UnityPlayer: void access$3200(com.unity3d.player.UnityPlayer,boolean)\u003e",
+      "sourceStatement": "staticinvoke \u003ccom.unity3d.player.UnityPlayer: void access$3200(com.unity3d.player.UnityPlayer,boolean)\u003e($r1, $z0)",
+      "kind": "STATIC",
+      "component": [
+        "com.unity3d.player.UnityPlayerActivity"
+      ]
+    },
+    {
+      "sourceMethod": "\u003ccom.unity3d.player.UnityPlayerActivity: void onWindowFocusChanged(boolean)\u003e",
+      "targetMethod": "\u003ccom.unity3d.player.UnityPlayer: void windowFocusChanged(boolean)\u003e",
+      "sourceStatement": "virtualinvoke $r1.\u003ccom.unity3d.player.UnityPlayer: void windowFocusChanged(boolean)\u003e($param0)",
+      "kind": "VIRTUAL",
+      "component": [
+        "com.unity3d.player.UnityPlayerActivity"
+      ]
+    },
+    {
+      "sourceMethod": "\u003ccom.unity3d.player.UnityPlayer: void windowFocusChanged(boolean)\u003e",
+      "targetMethod": "\u003ccom.unity3d.player.m: void a(boolean)\u003e",
+      "sourceStatement": "virtualinvoke $r1.\u003ccom.unity3d.player.m: void a(boolean)\u003e($param0)",
+      "kind": "VIRTUAL",
+      "component": [
+        "com.unity3d.player.UnityPlayerActivity"
+      ]
+    },
+    {
+      "sourceMethod": "\u003ccom.unity3d.player.UnityPlayer: void windowFocusChanged(boolean)\u003e",
+      "targetMethod": "\u003ccom.unity3d.player.m: boolean e()\u003e",
+      "sourceStatement": "$z0 \u003d virtualinvoke $r1.\u003ccom.unity3d.player.m: boolean e()\u003e()",
+      "kind": "VIRTUAL",
+      "component": [
+        "com.unity3d.player.UnityPlayerActivity"
+      ]
+    },
+    {
+      "sourceMethod": "\u003ccom.unity3d.player.UnityPlayer: void windowFocusChanged(boolean)\u003e",
+      "targetMethod": "\u003ccom.unity3d.player.UnityPlayer$e: void c()\u003e",
+      "sourceStatement": "virtualinvoke $r3.\u003ccom.unity3d.player.UnityPlayer$e: void c()\u003e()",
+      "kind": "VIRTUAL",
+      "component": [
+        "com.unity3d.player.UnityPlayerActivity"
+      ]
+    },
+    {
+      "sourceMethod": "\u003ccom.unity3d.player.UnityPlayer$e: void c()\u003e",
+      "targetMethod": "\u003ccom.unity3d.player.UnityPlayer$e: void a(com.unity3d.player.UnityPlayer$d)\u003e",
+      "sourceStatement": "specialinvoke this.\u003ccom.unity3d.player.UnityPlayer$e: void a(com.unity3d.player.UnityPlayer$d)\u003e($r1)",
+      "kind": "SPECIAL",
+      "component": [
+        "com.unity3d.player.UnityPlayerActivity"
+      ]
+    },
+    {
+      "sourceMethod": "\u003ccom.unity3d.player.UnityPlayer: void windowFocusChanged(boolean)\u003e",
+      "targetMethod": "\u003ccom.unity3d.player.UnityPlayer: void checkResumePlayer()\u003e",
+      "sourceStatement": "specialinvoke this.\u003ccom.unity3d.player.UnityPlayer: void checkResumePlayer()\u003e()",
+      "kind": "SPECIAL",
+      "component": [
+        "com.unity3d.player.UnityPlayerActivity"
+      ]
+    },
+    {
+      "sourceMethod": "\u003ccom.unity3d.player.UnityPlayer: void checkResumePlayer()\u003e",
+      "targetMethod": "\u003ccom.unity3d.player.m: void d(boolean)\u003e",
+      "sourceStatement": "virtualinvoke $r2.\u003ccom.unity3d.player.m: void d(boolean)\u003e(true)",
+      "kind": "VIRTUAL",
+      "component": [
+        "com.unity3d.player.UnityPlayerActivity"
+      ]
+    },
+    {
+      "sourceMethod": "\u003ccom.unity3d.player.UnityPlayer: void checkResumePlayer()\u003e",
+      "targetMethod": "\u003ccom.unity3d.player.UnityPlayer: void queueGLThreadEvent(java.lang.Runnable)\u003e",
+      "sourceStatement": "specialinvoke this.\u003ccom.unity3d.player.UnityPlayer: void queueGLThreadEvent(java.lang.Runnable)\u003e($r3)",
+      "kind": "SPECIAL",
+      "component": [
+        "com.unity3d.player.UnityPlayerActivity"
+      ]
+    },
+    {
+      "sourceMethod": "\u003ccom.unity3d.player.UnityPlayer: void checkResumePlayer()\u003e",
+      "targetMethod": "\u003ccom.unity3d.player.UnityPlayer$e: void b()\u003e",
+      "sourceStatement": "virtualinvoke $r4.\u003ccom.unity3d.player.UnityPlayer$e: void b()\u003e()",
+      "kind": "VIRTUAL",
+      "component": [
+        "com.unity3d.player.UnityPlayerActivity"
+      ]
+    },
+    {
+      "sourceMethod": "\u003ccom.unity3d.player.UnityPlayer$e: void b()\u003e",
+      "targetMethod": "\u003ccom.unity3d.player.UnityPlayer$e: void a(com.unity3d.player.UnityPlayer$d)\u003e",
+      "sourceStatement": "specialinvoke this.\u003ccom.unity3d.player.UnityPlayer$e: void a(com.unity3d.player.UnityPlayer$d)\u003e($r1)",
+      "kind": "SPECIAL",
+      "component": [
+        "com.unity3d.player.UnityPlayerActivity"
+      ]
+    },
+    {
+      "sourceMethod": "\u003ccom.unity3d.player.UnityPlayer$3$1: void run()\u003e",
+      "targetMethod": "\u003ccom.unity3d.player.UnityPlayer: com.unity3d.player.h access$1200(com.unity3d.player.UnityPlayer)\u003e",
+      "sourceStatement": "$r3 \u003d staticinvoke \u003ccom.unity3d.player.UnityPlayer: com.unity3d.player.h access$1200(com.unity3d.player.UnityPlayer)\u003e($r2)",
+      "kind": "STATIC",
+      "component": [
+        "com.unity3d.player.UnityPlayerActivity"
+      ]
+    },
+    {
+      "sourceMethod": "\u003ccom.unity3d.player.UnityPlayer$3$1: void run()\u003e",
+      "targetMethod": "\u003ccom.unity3d.player.UnityPlayer: com.unity3d.player.h access$1200(com.unity3d.player.UnityPlayer)\u003e",
+      "sourceStatement": "$r3 \u003d staticinvoke \u003ccom.unity3d.player.UnityPlayer: com.unity3d.player.h access$1200(com.unity3d.player.UnityPlayer)\u003e($r2)",
+      "kind": "STATIC",
+      "component": [
+        "com.unity3d.player.UnityPlayerActivity"
+      ]
+    },
+    {
+      "sourceMethod": "\u003ccom.unity3d.player.UnityPlayer$3$1: void run()\u003e",
+      "targetMethod": "\u003ccom.unity3d.player.h: void b(android.view.ViewGroup)\u003e",
+      "sourceStatement": "virtualinvoke $r3.\u003ccom.unity3d.player.h: void b(android.view.ViewGroup)\u003e($r2)",
+      "kind": "VIRTUAL",
+      "component": [
+        "com.unity3d.player.UnityPlayerActivity"
+      ]
+    },
+    {
+      "sourceMethod": "\u003ccom.unity3d.player.UnityPlayer: boolean onTouchEvent(android.view.MotionEvent)\u003e",
+      "targetMethod": "\u003ccom.unity3d.player.UnityPlayer: boolean injectEvent(android.view.InputEvent)\u003e",
+      "sourceStatement": "$z0 \u003d virtualinvoke this.\u003ccom.unity3d.player.UnityPlayer: boolean injectEvent(android.view.InputEvent)\u003e($param0)",
+      "kind": "VIRTUAL",
+      "component": [
+        "com.unity3d.player.UnityPlayerActivity"
+      ]
+    },
+    {
+      "sourceMethod": "\u003ccom.unity3d.player.UnityPlayer: boolean injectEvent(android.view.InputEvent)\u003e",
+      "targetMethod": "\u003ccom.unity3d.player.m: boolean c()\u003e",
+      "sourceStatement": "$z0 \u003d staticinvoke \u003ccom.unity3d.player.m: boolean c()\u003e()",
+      "kind": "STATIC",
+      "component": [
+        "com.unity3d.player.UnityPlayerActivity"
+      ]
+    },
+    {
+      "sourceMethod": "\u003ccom.unity3d.player.UnityPlayer$3: void run()\u003e",
+      "targetMethod": "\u003ccom.unity3d.player.UnityPlayer: void access$2200(com.unity3d.player.UnityPlayer)\u003e",
+      "sourceStatement": "staticinvoke \u003ccom.unity3d.player.UnityPlayer: void access$2200(com.unity3d.player.UnityPlayer)\u003e($r2)",
+      "kind": "STATIC",
+      "component": [
+        "com.unity3d.player.UnityPlayerActivity"
+      ]
+    },
+    {
+      "sourceMethod": "\u003ccom.unity3d.player.UnityPlayer$3: void run()\u003e",
+      "targetMethod": "\u003ccom.unity3d.player.UnityPlayer: void runOnUiThread(java.lang.Runnable)\u003e",
+      "sourceStatement": "virtualinvoke $r2.\u003ccom.unity3d.player.UnityPlayer: void runOnUiThread(java.lang.Runnable)\u003e($r1)",
+      "kind": "VIRTUAL",
+      "component": [
+        "com.unity3d.player.UnityPlayerActivity"
+      ]
+    },
+    {
+      "sourceMethod": "\u003ccom.unity3d.player.UnityPlayer: void runOnUiThread(java.lang.Runnable)\u003e",
+      "targetMethod": "\u003candroid.app.Activity: void runOnUiThread(java.lang.Runnable)\u003e",
+      "sourceStatement": "virtualinvoke $r2.\u003candroid.app.Activity: void runOnUiThread(java.lang.Runnable)\u003e($param0)",
+      "kind": "VIRTUAL",
+      "component": [
+        "com.unity3d.player.UnityPlayerActivity"
+      ]
+    },
+    {
+      "sourceMethod": "\u003ccom.unity3d.player.UnityPlayer$e$1: boolean handleMessage(android.os.Message)\u003e",
+      "targetMethod": "\u003ccom.unity3d.player.UnityPlayer: boolean isFinishing()\u003e",
+      "sourceStatement": "$z0 \u003d virtualinvoke $r6.\u003ccom.unity3d.player.UnityPlayer: boolean isFinishing()\u003e()",
+      "kind": "VIRTUAL",
+      "component": [
+        "com.unity3d.player.UnityPlayerActivity"
+      ]
+    },
+    {
+      "sourceMethod": "\u003ccom.unity3d.player.UnityPlayer$e$1: boolean handleMessage(android.os.Message)\u003e",
+      "targetMethod": "\u003ccom.unity3d.player.UnityPlayer: boolean access$300(com.unity3d.player.UnityPlayer)\u003e",
+      "sourceStatement": "$z0 \u003d staticinvoke \u003ccom.unity3d.player.UnityPlayer: boolean access$300(com.unity3d.player.UnityPlayer)\u003e($r6)",
+      "kind": "STATIC",
+      "component": [
+        "com.unity3d.player.UnityPlayerActivity"
+      ]
+    },
+    {
+      "sourceMethod": "\u003ccom.unity3d.player.UnityPlayer: boolean access$300(com.unity3d.player.UnityPlayer)\u003e",
+      "targetMethod": "\u003cbitter.jnibridge.JNIBridge: java.lang.Object newInterfaceProxy(long,java.lang.Class[])\u003e",
+      "sourceStatement": "$z0 \u003d specialinvoke $param0.\u003ccom.unity3d.player.UnityPlayer: boolean nativeRender()\u003e()",
+      "kind": "GENERIC_FAKE",
+      "component": [
+        "com.unity3d.player.UnityPlayerActivity"
+      ]
+    },
+    {
+      "sourceMethod": "\u003ccom.unity3d.player.UnityPlayer: boolean initializeGoogleAr()\u003e",
+      "targetMethod": "\u003ccom.unity3d.player.UnityPlayer: boolean getARCoreEnabled()\u003e",
+      "sourceStatement": "$z0 \u003d specialinvoke this.\u003ccom.unity3d.player.UnityPlayer: boolean getARCoreEnabled()\u003e()",
+      "kind": "SPECIAL",
+      "component": [
+        "com.unity3d.player.UnityPlayerActivity"
+      ]
+    },
+    {
+      "sourceMethod": "\u003ccom.unity3d.player.UnityPlayer: boolean getARCoreEnabled()\u003e",
+      "targetMethod": "\u003ccom.unity3d.player.UnityPlayer: android.content.pm.ApplicationInfo getApplicationInfo()\u003e",
+      "sourceStatement": "$r2 \u003d specialinvoke this.\u003ccom.unity3d.player.UnityPlayer: android.content.pm.ApplicationInfo getApplicationInfo()\u003e()",
+      "kind": "SPECIAL",
+      "component": [
+        "com.unity3d.player.UnityPlayerActivity"
+      ]
+    },
+    {
+      "sourceMethod": "\u003cbitter.jnibridge.JNIBridge$a: java.lang.Object invoke(java.lang.Object,java.lang.reflect.Method,java.lang.Object[])\u003e",
+      "targetMethod": "\u003cbitter.jnibridge.JNIBridge: void disableInterfaceProxy(java.lang.Object)\u003e",
+      "sourceStatement": "$r6 \u003d staticinvoke \u003cbitter.jnibridge.JNIBridge: java.lang.Object invoke(long,java.lang.Class,java.lang.reflect.Method,java.lang.Object[])\u003e($l1, $r5, $param1, $param2)",
+      "kind": "GENERIC_FAKE",
+      "component": [
+        "com.unity3d.player.UnityPlayerActivity"
+      ]
+    },
+    {
+      "sourceMethod": "\u003cbitter.jnibridge.JNIBridge: void disableInterfaceProxy(java.lang.Object)\u003e",
+      "targetMethod": "\u003cbitter.jnibridge.JNIBridge$a: void a()\u003e",
+      "sourceStatement": "virtualinvoke $r2.\u003cbitter.jnibridge.JNIBridge$a: void a()\u003e()",
+      "kind": "VIRTUAL",
+      "component": [
+        "com.unity3d.player.UnityPlayerActivity"
+      ]
+    },
+    {
+      "sourceMethod": "\u003ccom.google.androidgamesdk.SwappyDisplayManager: void \u003cinit\u003e(long,android.app.Activity)\u003e",
+      "targetMethod": "\u003ccom.google.androidgamesdk.SwappyDisplayManager: void updateSupportedRefreshRates(android.view.Display)\u003e",
+      "sourceStatement": "specialinvoke this.\u003ccom.google.androidgamesdk.SwappyDisplayManager: void updateSupportedRefreshRates(android.view.Display)\u003e($r11)",
+      "kind": "SPECIAL",
+      "component": [
+        "com.unity3d.player.UnityPlayerActivity"
+      ]
+    },
+    {
+      "sourceMethod": "\u003ccom.google.androidgamesdk.SwappyDisplayManager: void updateSupportedRefreshRates(android.view.Display)\u003e",
+      "targetMethod": "\u003ccom.google.androidgamesdk.SwappyDisplayManager: boolean modeMatchesCurrentResolution(android.view.Display$Mode)\u003e",
+      "sourceStatement": "$z0 \u003d specialinvoke this.\u003ccom.google.androidgamesdk.SwappyDisplayManager: boolean modeMatchesCurrentResolution(android.view.Display$Mode)\u003e($r3)",
+      "kind": "SPECIAL",
+      "component": [
+        "com.unity3d.player.UnityPlayerActivity"
+      ]
+    },
+    {
+      "sourceMethod": "\u003ccom.google.androidgamesdk.SwappyDisplayManager: void updateSupportedRefreshRates(android.view.Display)\u003e",
+      "targetMethod": "\u003ccom.google.androidgamesdk.SwappyDisplayManager: boolean modeMatchesCurrentResolution(android.view.Display$Mode)\u003e",
+      "sourceStatement": "$z0 \u003d specialinvoke this.\u003ccom.google.androidgamesdk.SwappyDisplayManager: boolean modeMatchesCurrentResolution(android.view.Display$Mode)\u003e($r3)",
+      "kind": "SPECIAL",
+      "component": [
+        "com.unity3d.player.UnityPlayerActivity"
+      ]
+    },
+    {
+      "sourceMethod": "\u003ccom.google.androidgamesdk.SwappyDisplayManager: void \u003cinit\u003e(long,android.app.Activity)\u003e",
+      "targetMethod": "\u003ccom.google.androidgamesdk.SwappyDisplayManager$a: void \u003cinit\u003e(com.google.androidgamesdk.SwappyDisplayManager,byte)\u003e",
+      "sourceStatement": "specialinvoke $r14.\u003ccom.google.androidgamesdk.SwappyDisplayManager$a: void \u003cinit\u003e(com.google.androidgamesdk.SwappyDisplayManager,byte)\u003e(this, 0)",
+      "kind": "SPECIAL",
+      "component": [
+        "com.unity3d.player.UnityPlayerActivity"
+      ]
+    },
+    {
+      "sourceMethod": "\u003ccom.google.androidgamesdk.SwappyDisplayManager$a: void \u003cinit\u003e(com.google.androidgamesdk.SwappyDisplayManager,byte)\u003e",
+      "targetMethod": "\u003ccom.google.androidgamesdk.SwappyDisplayManager$a: void \u003cinit\u003e(com.google.androidgamesdk.SwappyDisplayManager)\u003e",
+      "sourceStatement": "specialinvoke this.\u003ccom.google.androidgamesdk.SwappyDisplayManager$a: void \u003cinit\u003e(com.google.androidgamesdk.SwappyDisplayManager)\u003e($param0)",
+      "kind": "SPECIAL",
+      "component": [
+        "com.unity3d.player.UnityPlayerActivity"
+      ]
+    },
+    {
+      "sourceMethod": "\u003ccom.google.androidgamesdk.SwappyDisplayManager: void \u003cinit\u003e(long,android.app.Activity)\u003e",
+      "targetMethod": "\u003ccom.google.androidgamesdk.SwappyDisplayManager$a: void start()\u003e",
+      "sourceStatement": "virtualinvoke $r14.\u003ccom.google.androidgamesdk.SwappyDisplayManager$a: void start()\u003e()",
+      "kind": "VIRTUAL",
+      "component": [
+        "com.unity3d.player.UnityPlayerActivity"
+      ]
+    },
+    {
+      "sourceMethod": "\u003ccom.google.androidgamesdk.SwappyDisplayManager$a: void start()\u003e",
+      "targetMethod": "\u003cjava.lang.Thread: void start()\u003e",
+      "sourceStatement": "specialinvoke this.\u003cjava.lang.Thread: void start()\u003e()",
+      "kind": "SPECIAL",
+      "component": [
+        "com.unity3d.player.UnityPlayerActivity"
+      ]
+    },
+    {
+      "sourceMethod": "\u003ccom.google.androidgamesdk.SwappyDisplayManager$a: void start()\u003e",
+      "targetMethod": "\u003ccom.google.androidgamesdk.SwappyDisplayManager$a: void run()\u003e",
+      "sourceStatement": "specialinvoke this.\u003cjava.lang.Thread: void start()\u003e()",
+      "kind": "THREAD",
+      "component": [
+        "com.unity3d.player.UnityPlayerActivity"
+      ]
+    },
+    {
+      "sourceMethod": "\u003ccom.unity3d.player.UnityPlayer$24: void run()\u003e",
+      "targetMethod": "\u003ccom.unity3d.player.UnityPlayer: boolean access$1900(com.unity3d.player.UnityPlayer)\u003e",
+      "sourceStatement": "$z0 \u003d staticinvoke \u003ccom.unity3d.player.UnityPlayer: boolean access$1900(com.unity3d.player.UnityPlayer)\u003e($r1)",
+      "kind": "STATIC",
+      "component": [
+        "com.unity3d.player.UnityPlayerActivity"
+      ]
+    },
+    {
+      "sourceMethod": "\u003ccom.unity3d.player.UnityPlayer: boolean access$1900(com.unity3d.player.UnityPlayer)\u003e",
+      "targetMethod": "\u003cbitter.jnibridge.JNIBridge: java.lang.Object newInterfaceProxy(long,java.lang.Class[])\u003e",
+      "sourceStatement": "$z0 \u003d specialinvoke $param0.\u003ccom.unity3d.player.UnityPlayer: boolean nativePause()\u003e()",
+      "kind": "GENERIC_FAKE",
+      "component": [
+        "com.unity3d.player.UnityPlayerActivity"
+      ]
+    },
+    {
+      "sourceMethod": "\u003ccom.unity3d.player.UnityPlayer: void pauseUnity()\u003e",
+      "targetMethod": "\u003ccom.unity3d.player.m: boolean c()\u003e",
+      "sourceStatement": "$z0 \u003d staticinvoke \u003ccom.unity3d.player.m: boolean c()\u003e()",
+      "kind": "STATIC",
+      "component": [
+        "com.unity3d.player.UnityPlayerActivity"
+      ]
+    },
+    {
+      "sourceMethod": "\u003ccom.unity3d.player.UnityPlayer: void pauseUnity()\u003e",
+      "targetMethod": "\u003ccom.unity3d.player.UnityPlayer: boolean isFinishing()\u003e",
+      "sourceStatement": "$z0 \u003d virtualinvoke this.\u003ccom.unity3d.player.UnityPlayer: boolean isFinishing()\u003e()",
+      "kind": "VIRTUAL",
+      "component": [
+        "com.unity3d.player.UnityPlayerActivity"
+      ]
+    },
+    {
+      "sourceMethod": "\u003ccom.unity3d.player.UnityPlayer: void pauseUnity()\u003e",
+      "targetMethod": "\u003ccom.unity3d.player.UnityPlayer$e: void a(java.lang.Runnable)\u003e",
+      "sourceStatement": "virtualinvoke $r1.\u003ccom.unity3d.player.UnityPlayer$e: void a(java.lang.Runnable)\u003e($r5)",
+      "kind": "VIRTUAL",
+      "component": [
+        "com.unity3d.player.UnityPlayerActivity"
+      ]
+    },
+    {
+      "sourceMethod": "\u003ccom.unity3d.player.UnityPlayer$e: void a(java.lang.Runnable)\u003e",
+      "targetMethod": "\u003ccom.unity3d.player.UnityPlayer$e: void a(com.unity3d.player.UnityPlayer$d)\u003e",
+      "sourceStatement": "specialinvoke this.\u003ccom.unity3d.player.UnityPlayer$e: void a(com.unity3d.player.UnityPlayer$d)\u003e($r4)",
+      "kind": "SPECIAL",
+      "component": [
+        "com.unity3d.player.UnityPlayerActivity"
+      ]
+    },
+    {
+      "sourceMethod": "\u003ccom.unity3d.player.UnityPlayer: void pauseUnity()\u003e",
+      "targetMethod": "\u003ccom.unity3d.player.m: void d(boolean)\u003e",
+      "sourceStatement": "virtualinvoke $r4.\u003ccom.unity3d.player.m: void d(boolean)\u003e(false)",
+      "kind": "VIRTUAL",
+      "component": [
+        "com.unity3d.player.UnityPlayerActivity"
+      ]
+    },
+    {
+      "sourceMethod": "\u003ccom.unity3d.player.UnityPlayer: void pauseUnity()\u003e",
+      "targetMethod": "\u003ccom.unity3d.player.m: void b(boolean)\u003e",
+      "sourceStatement": "virtualinvoke $r4.\u003ccom.unity3d.player.m: void b(boolean)\u003e(true)",
+      "kind": "VIRTUAL",
+      "component": [
+        "com.unity3d.player.UnityPlayerActivity"
+      ]
+    },
+    {
+      "sourceMethod": "\u003ccom.unity3d.player.UnityPlayer: boolean access$300(com.unity3d.player.UnityPlayer)\u003e",
+      "targetMethod": "\u003ccom.google.androidgamesdk.SwappyDisplayManager: void terminate()\u003e",
+      "sourceStatement": "$z0 \u003d specialinvoke $param0.\u003ccom.unity3d.player.UnityPlayer: boolean nativeRender()\u003e()",
+      "kind": "GENERIC_FAKE",
+      "component": [
+        "com.unity3d.player.UnityPlayerActivity"
+      ]
+    },
+    {
+      "sourceMethod": "\u003ccom.unity3d.player.UnityPlayer: boolean access$300(com.unity3d.player.UnityPlayer)\u003e",
+      "targetMethod": "\u003ccom.google.androidgamesdk.SwappyDisplayManager: void \u003cinit\u003e(long,android.app.Activity)\u003e",
+      "sourceStatement": "$z0 \u003d specialinvoke $param0.\u003ccom.unity3d.player.UnityPlayer: boolean nativeRender()\u003e()",
+      "kind": "GENERIC_FAKE",
+      "component": [
+        "com.unity3d.player.UnityPlayerActivity"
+      ]
+    },
+    {
+      "sourceMethod": "\u003ccom.google.androidgamesdk.SwappyDisplayManager$1: void run()\u003e",
+      "targetMethod": "\u003ccom.google.androidgamesdk.SwappyDisplayManager: android.app.Activity access$100(com.google.androidgamesdk.SwappyDisplayManager)\u003e",
+      "sourceStatement": "$r2 \u003d staticinvoke \u003ccom.google.androidgamesdk.SwappyDisplayManager: android.app.Activity access$100(com.google.androidgamesdk.SwappyDisplayManager)\u003e($r1)",
+      "kind": "STATIC",
+      "component": [
+        "com.unity3d.player.UnityPlayerActivity"
+      ]
+    },
+    {
+      "sourceMethod": "\u003ccom.unity3d.player.UnityPlayer$18: void run()\u003e",
+      "targetMethod": "\u003ccom.unity3d.player.UnityPlayer: com.unity3d.player.j access$1000(com.unity3d.player.UnityPlayer)\u003e",
+      "sourceStatement": "$r1 \u003d staticinvoke \u003ccom.unity3d.player.UnityPlayer: com.unity3d.player.j access$1000(com.unity3d.player.UnityPlayer)\u003e($r2)",
+      "kind": "STATIC",
+      "component": [
+        "com.unity3d.player.UnityPlayerActivity"
+      ]
+    },
+    {
+      "sourceMethod": "\u003ccom.unity3d.player.UnityPlayer$18: void run()\u003e",
+      "targetMethod": "\u003candroid.view.ViewGroup: void removeView(android.view.View)\u003e",
+      "sourceStatement": "virtualinvoke $r2.\u003ccom.unity3d.player.UnityPlayer: void removeView(android.view.View)\u003e($r1)",
+      "kind": "VIRTUAL",
+      "component": [
+        "com.unity3d.player.UnityPlayerActivity"
+      ]
+    },
+    {
+      "sourceMethod": "\u003ccom.unity3d.player.UnityPlayer$18: void run()\u003e",
+      "targetMethod": "\u003ccom.unity3d.player.j: void onDetachedFromWindow()\u003e",
+      "sourceStatement": "virtualinvoke $r2.\u003ccom.unity3d.player.UnityPlayer: void removeView(android.view.View)\u003e($r1)",
+      "kind": "GENERIC_FAKE",
+      "component": [
+        "com.unity3d.player.UnityPlayerActivity"
+      ]
+    },
+    {
+      "sourceMethod": "\u003ccom.unity3d.player.UnityPlayer$18: void run()\u003e",
+      "targetMethod": "\u003ccom.unity3d.player.UnityPlayer: com.unity3d.player.j access$1002(com.unity3d.player.UnityPlayer,com.unity3d.player.j)\u003e",
+      "sourceStatement": "staticinvoke \u003ccom.unity3d.player.UnityPlayer: com.unity3d.player.j access$1002(com.unity3d.player.UnityPlayer,com.unity3d.player.j)\u003e($r2, null)",
+      "kind": "STATIC",
+      "component": [
+        "com.unity3d.player.UnityPlayerActivity"
+      ]
+    },
+    {
+      "sourceMethod": "\u003ccom.unity3d.player.UnityPlayer$e$1: boolean handleMessage(android.os.Message)\u003e",
+      "targetMethod": "\u003ccom.unity3d.player.UnityPlayer: boolean access$100(com.unity3d.player.UnityPlayer)\u003e",
+      "sourceStatement": "$z0 \u003d staticinvoke \u003ccom.unity3d.player.UnityPlayer: boolean access$100(com.unity3d.player.UnityPlayer)\u003e($r6)",
+      "kind": "STATIC",
+      "component": [
+        "com.unity3d.player.UnityPlayerActivity"
+      ]
+    },
+    {
+      "sourceMethod": "\u003ccom.unity3d.player.UnityPlayer: boolean access$100(com.unity3d.player.UnityPlayer)\u003e",
+      "targetMethod": "\u003ccom.unity3d.player.UnityPlayer: boolean getSplashEnabled()\u003e",
+      "sourceStatement": "$z0 \u003d specialinvoke $param0.\u003ccom.unity3d.player.UnityPlayer: boolean getSplashEnabled()\u003e()",
+      "kind": "SPECIAL",
+      "component": [
+        "com.unity3d.player.UnityPlayerActivity"
+      ]
+    },
+    {
+      "sourceMethod": "\u003ccom.unity3d.player.UnityPlayer$e$1: boolean handleMessage(android.os.Message)\u003e",
+      "targetMethod": "\u003ccom.unity3d.player.UnityPlayer: void access$200(com.unity3d.player.UnityPlayer)\u003e",
+      "sourceStatement": "staticinvoke \u003ccom.unity3d.player.UnityPlayer: void access$200(com.unity3d.player.UnityPlayer)\u003e($r6)",
+      "kind": "STATIC",
+      "component": [
+        "com.unity3d.player.UnityPlayerActivity"
+      ]
+    },
+    {
+      "sourceMethod": "\u003ccom.unity3d.player.UnityPlayer: void access$200(com.unity3d.player.UnityPlayer)\u003e",
+      "targetMethod": "\u003ccom.unity3d.player.UnityPlayer: void DisableStaticSplashScreen()\u003e",
+      "sourceStatement": "specialinvoke $param0.\u003ccom.unity3d.player.UnityPlayer: void DisableStaticSplashScreen()\u003e()",
+      "kind": "SPECIAL",
+      "component": [
+        "com.unity3d.player.UnityPlayerActivity"
+      ]
+    },
+    {
+      "sourceMethod": "\u003ccom.unity3d.player.UnityPlayer: void DisableStaticSplashScreen()\u003e",
+      "targetMethod": "\u003ccom.unity3d.player.UnityPlayer: void runOnUiThread(java.lang.Runnable)\u003e",
+      "sourceStatement": "virtualinvoke this.\u003ccom.unity3d.player.UnityPlayer: void runOnUiThread(java.lang.Runnable)\u003e($r1)",
+      "kind": "VIRTUAL",
+      "component": [
+        "com.unity3d.player.UnityPlayerActivity"
+      ]
+    },
+    {
+      "sourceMethod": "\u003ccom.google.androidgamesdk.SwappyDisplayManager: void setPreferredRefreshRate(int)\u003e",
+      "targetMethod": "\u003ccom.google.androidgamesdk.SwappyDisplayManager$1: void \u003cinit\u003e(com.google.androidgamesdk.SwappyDisplayManager,int)\u003e",
+      "sourceStatement": "specialinvoke $r2.\u003ccom.google.androidgamesdk.SwappyDisplayManager$1: void \u003cinit\u003e(com.google.androidgamesdk.SwappyDisplayManager,int)\u003e(this, $param0)",
+      "kind": "SPECIAL",
+      "component": [
+        "\u003cNONE\u003e"
+      ]
+    },
+    {
+      "sourceMethod": "\u003ccom.google.androidgamesdk.SwappyDisplayManager: void setPreferredRefreshRate(int)\u003e",
+      "targetMethod": "\u003candroid.app.Activity: void runOnUiThread(java.lang.Runnable)\u003e",
+      "sourceStatement": "virtualinvoke $r1.\u003candroid.app.Activity: void runOnUiThread(java.lang.Runnable)\u003e($r2)",
+      "kind": "VIRTUAL",
+      "component": [
+        "com.unity3d.player.UnityPlayerActivity"
+      ]
+    }
+  ]
+}
